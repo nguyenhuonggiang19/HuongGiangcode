@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bất Động Sản Hà Nội</title>
+    <link rel="stylesheet" href="batdongsan.css">
+</head>
+<body>
+    <header>
+        <nav class="Giang">
+            <div class="menu">
+                <img src="hinhanhBTL/logo.png" alt="#">
+            </div>
+            <div class="menu">
+                <a href="muaban.html"><button class="menu1">Mua bán</button></a>
+                <div class="menu2">
+                    <a href="#">Bán Nhà</a>
+                    <a href="#">Bán Đất</a>
+                    <a href="#">Bán Biệt thự</a>
+                    <a href="#">Bán BĐS Thương mại</a>
+                    <a href="#">Bán Căn hộ chung cư</a>
+                    <a href="#">Bán Văn Phòng</a>
+                    <a href="#">Bán BĐS Nông nghiệp</a>
+                    <a href="#">Bán BĐS Công nghiệp</a>
+                    <a href="#">Bán BĐS Tâm linh</a>
+                    <a href="#">Bán BĐS Khác</a>
+                </div>
+            </div>
+            <div class="menu">
+                <a href="chothue.html"><button class="menu1">Cho Thuê</button></a>
+                <div class="menu2">
+                    <a href="#">Cho Thuê Nhà</a>
+                    <a href="#">Cho Thuê Đất</a>
+                    <a href="#">Cho Thuê Biệt thự</a>
+                    <a href="#">Cho Thuê BĐS Thương mại</a>
+                    <a href="#">Cho Thuê Căn hộ chung cư</a>
+                    <a href="#">Cho Thuê Văn Phòng</a>
+                    <a href="#">Cho Thuê BĐS Nông nghiệp</a>
+                    <a href="#">Cho Thuê BĐS Công nghiệp</a>
+                    <a href="#">Cho Thuê BĐS Tâm linh</a>
+                    <a href="#">Cho Thuê BĐS Khác</a>
+                </div>
+            </div>
+            <div class="menu">
+                <a href="tintuc.html"><button class="menu1">Tin Tức</button></a>
+                <div class="menu2">
+                    <a href="#">Nhìn ra Thế Giới</a>
+                    <a href="#">Chuyển động Thị trường</a>
+                    <a href="#">Chính sách Quản lí</a>
+                    <a href="#">Thông tin Quy hoạch</a>
+                    <a href="#">Giải pháp Công nghệ</a>
+                    <a href="#">Hoạt động Doanh nghiệp</a>
+                    <a href="#">Thông tin Sự kiện</a>
+                </div>
+            </div>
+            <div class="menu">
+                <a href="sukien.html"><button class="menu1">Sự Kiện</button></a>
+                <div class="menu2">
+                    <a href="#">Sự kiện ra mắt</a>
+                    <a href="#">Sự kiện hội thảo</a>
+                    <a href="#">Sự kiện đào tạo</a>
+                    <a href="#">Sự kiện đầu tư</a>
+                </div>
+            </div>
+            <div class="menu">
+                <a href="chuyende.html"><button class="menu1">Chuyên Đề</button></a>
+                <div class="menu2">
+                    <a href="#">Bất động sản số</a>
+                    <a href="#">Hệ sinh thái bất động sản</a>
+                    <a href="#">Khởi nghiệp bất động sản</a>
+                    <a href="#">Vấn đề và giải pháp</a>
+                    <a href="#">Bất động sản thời covid</a>
+                </div>
+            </div>
+            <div class="menu">
+                <a href="thuvien.html"><button class="menu1">Thư Viện</button></a>
+                <div class="menu2">
+                    <a href="#">Nội thất</a>
+                    <a href="#">Kiến trúc</a>
+                    <a href="#">Ngoại thất</a>
+                    <a href="#">Phong thủy</a>
+                    <a href="#">Kiến thức</a>
+                    <a href="#">Pháp luật</a>
+                    <a href="#">Sách và tài liệu</a>
+                </div>
+            </div>
+            <div class="menu">
+                <a href="#"><button class="menu1">Danh Thiếp Bất Động Sản</button></a>
+            </div>
+            <div class="menu3">
+                <a href="dangky.html">ĐĂNG KÝ</a>
+                <a href="dangnhap.html">ĐĂNG NHẬP</a>
+            </div>
+        </nav>
+        <div id="search-block">
+            <div>
+                <form class="tim">
+                    <input  type="search" name="search" placeholder="Nhập từ khóa tìm kiếm       🔍">
+                    <button type="submit">Tìm kiếm</button>
+                </form>
+            </div>
+            <div id="search-filters">
+                <select class="dropdown">
+                    <option value="option1">Nhu cầu</option>
+                    <option value="option2">Bán</option>
+                    <option value="option3">Cho thuê</option>
+                </select>
+                <select class="dropdown">
+                    <option value="option1">Phân khúc</option>
+                    <option value="option2">Nhà</option>
+                    <option value="option3">|--Nhà riêng</option>
+                    <option value="option1">|--Nhà mặt phố</option>
+                    <option value="option2">|--Luxury home </option>
+                    <option value="option3">|--Nhà riêng</option>
+                    <option value="option1">|--Nhà mặt phố</option>
+                    <option value="option2">|--Luxury home </option>
+                    <option value="option3">Đất</option>
+                    <option value="option1">|--Đất nền thổ cư</option>
+                    <option value="option2">|--Đất nền dự án </option>
+                    <option value="option3">|--Đất vàng</option>
+                    <option value="option1">Căn hộ chung cư</option>
+                    <option value="option2">|--Căn hộ giá rẻ </option>
+                    <option value="option3">|--Căn hộ trung cấp</option>
+                    <option value="option1">|--Căn hộ cao cấp</option>
+                    <option value="option2">|--Căn hộ tập thể </option>
+                    <option value="option3">|--Nhà ở xã hội</option>
+                    <option value="option1">|--Chung cư mini</option>
+                    <option value="option2">|--Căn hộ studio </option>
+                    <option value="option3">|--Căn hộ codotel</option>
+                    <option value="option1">|--Căn hộ hometel</option>
+                    <option value="option2">|--Căn hộ officetel </option>
+                    <option value="option3">|--Căn hộ Penhouse</option>
+                    <option value="option1">|--Căn hộ duplex</option>
+                    <option value="option2">|--Căn hộ sky villa </option>
+                    <option value="option3">Văn phòng</option>
+                    <option value="option1">|--Văn phòng truyền thống</option>
+                    <option value="option2">|--Tòa nhà văn phòng </option>
+                    <option value="option3">|--Co-working space</option>
+                    <option value="option1">|--Shared Office</option>
+                    <option value="option2">|--Văn phòng ảo </option>
+                    <option value="option3">Biệt thự</option>
+                    <option value="option1">|--Biệt thự phó</option>
+                    <option value="option2">|--Biệt thự biển đảo </option>
+                    <option value="option1">|--Biệt thự nghỉ dưỡng</option>
+                    <option value="option2">BĐS thương mại </option>
+                    <option value="option3">|--Sàn thương mại</option>
+                    <option value="option2">|--Cửa hàng, kiot </option>
+                    <option value="option3">|--Shophouse</option>
+                    <option value="option1">|--Chợ</option>
+                    <option value="option2">Bất động sản dịch vụ</option>
+                    <option value="option3">|--Nhà trọ</option>
+                    <option value="option1">|--Khách sạn</option>
+                    <option value="option2">|--Resort </option>
+                    <option value="option3">|--Apartment</option>
+                    <option value="option1">|--Homestay / Farmstay</option>
+                    <option value="option2">|--Timeshare </option>
+                    <option value="option3">|--Dưỡng lão</option>
+                    <option value="option1">BĐS công nghiệp</option>
+                    <option value="option2">|--Nhà xưởng </option>
+                    <option value="option1">|--Kho bãi</option>
+                    <option value="option2">|--Khu công nghiệp </option>
+                    <option value="option2">BĐS tâm linh </option>
+                    <option value="option3">|--Công viên vĩnh hằng</option>
+                    <option value="option1">|--Khu di tích</option>
+                    <option value="option2">BĐS khác </option>
+                    <option value="option3">|--Mobile home</option>
+                    <option value="option1">|--Expand home</option>
+                    <option value="option2">|--Nhà ở trên mặt nước </option>
+                    <option value="option3">|--Coliving space</option>
+                    <option value="option1">|--Bể bơi</option>
+                    <option value="option2">|--Sân thượng </option>
+                    <option value="option3">|--Hầm xe</option>
+                </select>
+                <select class="dropdown">
+                    <option value="option1">Khu vực</option>
+                    <option value="option2">Hà Nội</option>
+                </select>
+            </div>
+        </div>  
+        <div id="chu">
+            <h1>BẤT ĐỘNG SẢN HÀ NỘI</h1>
+            <h3>Sàn giao dịch bất động sản hàng đầu và uy tín tại Hà Nội. <br>
+                Chúng tôi đang có những bất động sản chất lượng tốt nhất. <br>
+                Nơi bạn có thể tìm thấy ngôi nhà mơ ước hoặc cơ hội đầu tư hấp dẫn. <br>
+                Hãy đưa ra yêu cầu, chúng tôi sẽ làm bạn hài lòng !</h3>
+        </div>
+        <div id="duoiheader">
+            <div class="image-container">
+                <img  src="hinhanhBTL/san1.jpg" alt="Your Image" class="image">
+                <div class="caption"><strong>ĐẤT NỀN THỔ CƯ</strong></div>
+            </div>
+            <div class="image-container">
+                <img src="hinhanhBTL/san2.png" alt="Your Image" class="image">
+                <div class="caption"><STRONG>BẤT ĐỘNG SẢN CHO THUÊ</STRONG></div>
+            </div>
+            <div class="image-container">
+                <img src="hinhanhBTL/san4.png" alt="Your Image" class="image">
+                <div class="caption"><STRONG>BẤT ĐỘNG SẢN ĐANG GIAO BÁN</STRONG></div>
+            </div>
+            <div class="image-container">
+                <img src="hinhanhBTL/san5.png" alt="Your Image" class="image">
+                <div class="caption"><STRONG>DỰ ÁN BẤT ĐỘNG SẢN</STRONG></div>
+            </div>
+        </div> 
+    </header>
+    <main>
+        <div id="main">
+            <img style="width: 60%; height: 350px;" src="hinhanhBTL/anhcty.png" alt="ảnh cty">
+            <img style="width: 40%; height: 350px; margin-left: 10px;" src="hinhanhBTL/logo.png" alt="ảnh logo">
+        </div>
+        <nav class="Giang2">
+            <nav class="main1">
+                    <h2><strong>BẤT ĐỘNG SẢN DÀNH CHO BẠN</strong></h2>
+                    <ul class="nha1">
+                        <li class="nhaa">
+                            <a href="#">
+                            <img src="hinhanhBTL/anh5.png" alt=""> <br>
+                            <p>Nhà riêng       48,6 tỷ VNĐ
+                            </p>
+                            <h3>Bán nhà mặt đất phố Thụy Khuê Tây Hồ </h3>
+                            <div class="nha">
+                                <img style="width: 20px; height: 20px; border-radius: 2px;" src="hinhanhBTL/dientich.png" alt="#;">
+                                304m&sup2;
+                            </div>
+                            <img style="width: 20px; height: 20px;" src="hinhanhBTL/diachi.png" alt="#">
+                            Thành phố Hà Nội
+                            </a>
+                        </li>
+                        <li class="nhaa">
+                            <a href="#">
+                                <img src="hinhanhBTL/anh2.png" alt=""> <br>
+                                <p>Căn hộ chung cư       9,5 tỷ VNĐ
+                                </p>
+                                <h3>Cơ hội sở hữu căn hộ sang trọng tại Vinhomes West Point - Full nội thất</h3>
+                                <div class="nha">
+                                    <img style="width: 20px; height: 20px;" src="hinhanhBTL/dientich.png" alt="#;">
+                                    122.5m&sup2;
+                                    <img style="width: 20px; height: 20px;" src="hinhanhBTL/giuong.png" alt="3">
+                                    4
+                                    <img style="width: 20px; height: 20px; margin-left: 20px;" src="hinhanhBTL/nhatam.png" alt="2">
+                                    3
+                                </div>
+                                <img style="width: 20px; height: 20px;" src="hinhanhBTL/diachi.png" alt="#">
+                                Thành phố Hà Nội
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="nha1">
+                        <li class="nhaa">
+                            <a href="#">
+                                <img src="hinhanhBTL/anh3.png" alt=""> <br>
+                                <p>Căn hộ chung cư       2,75 tỷ VNĐ
+                                </p>
+                                <h3>Chính chủ bán nhanh căn hộ tại CT1A Hateco Apollo - Tầng trung</h3>
+                                <div class="nha">
+                                    <img style="width: 20px; height: 20px;" src="hinhanhBTL/dientich.png" alt="#;">
+                                    64m&sup2;
+                                    <img style="width: 20px; height: 20px;" src="hinhanhBTL/giuong.png" alt="3">
+                                    2
+                                    <img style="width: 20px; height: 20px; margin-left: 20px;" src="hinhanhBTL/nhatam.png" alt="2">
+                                    1
+                                </div>
+                                <img style="width: 20px; height: 20px;" src="hinhanhBTL/diachi.png" alt="#">
+                                Thành phố Hà Nội
+                            </a>
+                        </li>
+                        <li class="nhaa">
+                            <a href="#">
+                                <img src="hinhanhBTL/anh4.png" alt=""> <br>
+                                <p>Nhà riêng       4,3 tỷ VNĐ
+                                </p>
+                                <h3>Bán nhà riêng tại khu vực Phạm Văn Đồng, Bắc Từ Liêm</h3>
+                                <div class="nha">
+                                    <img style="width: 20px; height: 20px;" src="hinhanhBTL/dientich.png" alt="#;">
+                                    30m&sup2;
+                                    <img style="width: 20px; height: 20px;" src="hinhanhBTL/giuong.png" alt="3">
+                                    3
+                                    <img style="width: 20px; height: 20px; margin-left: 20px;" src="hinhanhBTL/nhatam.png" alt="2">
+                                    1
+                                </div>
+                                <img style="width: 20px; height: 20px;" src="hinhanhBTL/diachi.png" alt="#">
+                                Thành phố Hà Nội
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="nha1">
+                        <li class="nhaa">
+                            <a href="#">
+                                <img src="hinhanhBTL/anh1.jpg" alt=""> <br>
+                                <p>Căn hộ chung cư       3,8 tỷ VNĐ
+                                </p>
+                                <h3>Căn hộ sang trọng tại FLC LANDMARK TOWER - Vị trí đắc địa - Diện tích rộng..</h3>
+                                <div class="nha">
+                                    <img style="width: 20px; height: 20px;" src="hinhanhBTL/dientich.png" alt="#;">
+                                    124m&sup2;
+                                    <img style="width: 20px; height: 20px;" src="hinhanhBTL/giuong.png" alt="3">
+                                    3
+                                    <img style="width: 20px; height: 20px; margin-left: 20px;" src="hinhanhBTL/nhatam.png" alt="2">
+                                    2
+                                </div>
+                                <img style="width: 20px; height: 20px;" src="hinhanhBTL/diachi.png" alt="#">
+                                Thành phố Hà Nội
+                            </a>
+                        </li>
+                        <li class="nhaa">
+                            <a href="#">
+                                <img src="hinhanhBTL/anh6.png" alt=""> <br>
+                                <p>Nhà riêng       4,55 tỷ VNĐ
+                                </p>
+                                <h3>Bán nhà 4 tầng diện tích 42 m&sup2;, mặt tienef 6,5m - Khu vực Di Trạch, Hoài Đức</h3>
+                                <div class="nha">
+                                    <img style="width: 20px; height: 20px;" src="hinhanhBTL/dientich.png" alt="#;">
+                                    42m&sup2;
+                                    <img style="width: 20px; height: 20px;" src="hinhanhBTL/giuong.png" alt="3">
+                                    4
+                                    <img style="width: 20px; height: 20px; margin-left: 20px;" src="hinhanhBTL/nhatam.png" alt="2">
+                                    3
+                                </div>
+                                <img style="width: 20px; height: 20px;" src="hinhanhBTL/diachi.png" alt="#">
+                                thôn Dậu 1, Di Trạch, Hoài Đức, Hà Nội
+                            </a>
+                        </li>
+                    </ul>
+            </nav>
+        <article>
+            <div id="main12">
+                <h2><strong>| TOP 10 PHÂN KHÚC TIÊU BIỂU </strong></h2>
+                <p>> Nhà</p>
+                <p>> Đất</p>
+                <p>> Căn hộ chung cư</p>
+                <p>> Văn phòng</p>
+                <p>> Biệt thự</p>
+                <p>> BĐS thương mại</p>
+                <p>> BĐS dịch vụ</p>
+                <p>> BĐS nông nghiệp</p>
+                <p>> BĐS công nghiệp</p>
+                <p>> BĐS tâm linh</p>
+                <p>> BĐS khác</p>
+            </div>
+            <div id="main13">
+                <h2><strong>| TOP 5 CHỦ ĐẦU TƯ TIÊU BIỂU</strong></h2>
+                <div class="main13">
+                    Công ty Thương mại Dịch vụ Tràng Thi <br>
+                    1 dự án
+                </div>
+                <div class="main13">
+                    Công ty TNHH MTV Đầu tư và Xây dựng Nguyên Thịnh Phát <br>
+                    1 dự án
+                </div>
+                <div class="main13">
+                    Công ty CP Terra Gold Việt Nam <br>
+                    1 dự án
+                </div>
+                <div class="main13">
+                    Công ty TNHH TM - XNK - DV Minh Thành <br>
+                </div>
+                <div class="main13">
+                    Công ty TNHH Đầu tư Kinh doanh và Phát triển Dự án Thăng Long <br>
+                    1 dự án
+                </div>
+            </div>
+        </article>   
+        </nav>
+        <div style="padding-top: 5px; padding-bottom: 5px;" id="main2">
+            <h2><strong>| DỰ ÁN NỔI BẬT</strong></h2>
+            <ul class="nha1">
+                <li style="margin-left: 40px ;" class="nhaa">
+                    <a href="#">
+                        <img src="hinhanhBTL/duan1.png" alt=""> <br>
+                        <p>Dự án       Mở bán
+                        </p>
+                        <h3>Lumière Evergreen Smart City</h3>
+                        <div class="nha">
+                            <img style="width: 20px; height: 20px;" src="hinhanhBTL/dientich.png" alt="#;">
+                            23.672 ha;
+                        </div>
+                        <img style="width: 20px; height: 20px;" src="hinhanhBTL/diachi.png" alt="#">
+                        Quận Nam Từ Liêm, Thành phố Hà Nội
+                    </a>
+                </li>
+                <li style="margin-left: 40px ;" class="nhaa">
+                    <a href="#">
+                        <img src="hinhanhBTL/duan2.png" alt=""> <br>
+                        <p>Dự án       Mở bán
+                        </p>
+                        <h3>Chung cư The Wisteria - Dự án Hinode Royal Park</h3>
+                        <div class="nha">
+                            <img style="width: 20px; height: 20px;" src="hinhanhBTL/dientich.png" alt="#;">
+                            1.627 ha;
+                        </div>
+                        <img style="width: 20px; height: 20px;" src="hinhanhBTL/diachi.png" alt="#">
+                        Huyện Hoài Đức, Thành phố Hà Nội
+                    </a>
+                </li>
+                <li style="margin-left: 40px ;" class="nhaa">
+                    <a href="#">
+                        <img src="hinhanhBTL/duan3.png" alt=""> <br>
+                        <p>Dự án       Mở bán
+                        </p>
+                        <h3>The Canopy Residences Vinhomes Smart City</h3>
+                        <div class="nha">
+                            <img style="width: 20px; height: 20px;" src="hinhanhBTL/dientich.png" alt="#;">
+                            280 ha;
+                        </div>
+                        <img style="width: 20px; height: 20px;" src="hinhanhBTL/diachi.png" alt="#">
+                        Quận Nam Từ Liêm, Thành phố Hà Nội
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main2">
+            <h2><strong>| SÀN GIAO DỊCH TIÊU BIỂU</strong></h2>
+            <div class="mgtb">
+                <div class="moigioi">
+                    <div class="moigioi1">
+                        <img src="hinhanhBTL/datxanhmb.png" alt="#">
+                        <p>Đất Xanh Miền Bắc</p>
+                    </div>
+                    <div class="moigioi2">
+                        <p> Bài đăng</p>
+                        <p>Lượt xem</p>
+                    </div>
+                    <div class="moigioi3">
+                        <form action="#">
+                            <button type="submit">Xem thêm</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="moigioi">
+                    <div class="moigioi1">
+                        <img src="hinhanhBTL/namlong.png" alt="#">
+                        <p>BĐS Nam Long</p>
+                    </div>
+                    <div class="moigioi2">
+                        <p> Bài đăng</p>
+                        <p>Lượt xem</p>
+                    </div>
+                    <div class="moigioi3">
+                        <form action="#">
+                            <button type="submit">Xem thêm</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="moigioi">
+                    <div class="moigioi1">
+                        <img src="hinhanhBTL/dongtayland.png" alt="#">
+                        <p>Đông Tây Land</p>
+                    </div>
+                    <div class="moigioi2">
+                        <p> Bài đăng</p>
+                        <p>Lượt xem</p>
+                    </div>
+                    <div class="moigioi3">
+                        <form action="#">
+                            <button type="submit">Xem thêm</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="moigioi">
+                    <div class="moigioi1">
+                        <img src="hinhanhBTL/haiphat.png" alt="#">
+                        <p>Hải Phát Land</p>
+                    </div>
+                    <div class="moigioi2">
+                        <p> Bài đăng</p>
+                        <p>Lượt xem</p>
+                    </div>
+                    <div class="moigioi3">
+                        <form action="#">
+                            <button type="submit">Xem thêm</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="moigioi">
+                    <div class="moigioi1">
+                        <img src="hinhanhBTL/hobiland.png" alt="#">
+                        <p>Hòa Bình Land</p>
+                    </div>
+                    <div class="moigioi2">
+                        <p> Bài đăng</p>
+                        <p>Lượt xem</p>
+                    </div>
+                    <div class="moigioi3">
+                        <form action="#">
+                            <button type="submit">Xem thêm</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="moigioi">
+                    <div class="moigioi1">
+                        <img src="hinhanhBTL/dtphat.png" alt="#">
+                        <p>Đại Tín Phát</p>
+                    </div>
+                    <div class="moigioi2">
+                        <p> Bài đăng</p>
+                        <p>Lượt xem</p>
+                    </div>
+                    <div class="moigioi3">
+                        <form action="#">
+                            <button type="submit">Xem thêm</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div  class="main2">
+            <h2><strong>| MÔI GIỚI TIÊU BIỂU</strong></h2>
+            <div class="mgtb">
+                <div class="moigioi">
+                    <div class="moigioi1">
+                        <img src="hinhanhBTL/moigioi1.jpg" alt="#">
+                        <p>Huỳnh Nguyễn Thanh Bình</p>
+                    </div>
+                    <div class="moigioi2">
+                        <p> Bài đăng</p>
+                        <p>Lượt xem</p>
+                    </div>
+                    <div class="moigioi3">
+                        <form action="#">
+                            <button type="submit">Xem thêm</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="moigioi">
+                    <div class="moigioi1">
+                        <img src="hinhanhBTL/moigioi2.jpg" alt="#">
+                        <p>Đỗ Tuấn Hân</p>
+                    </div>
+                    <div class="moigioi2">
+                        <p> Bài đăng</p>
+                        <p>Lượt xem</p>
+                    </div>
+                    <div class="moigioi3">
+                        <form action="#">
+                            <button type="submit">Xem thêm</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="moigioi">
+                    <div class="moigioi1">
+                        <img src="hinhanhBTL/moigioi3.jpg" alt="#">
+                        <p>Trung Kiên</p>
+                    </div>
+                    <div class="moigioi2">
+                        <p> Bài đăng</p>
+                        <p>Lượt xem</p>
+                    </div>
+                    <div class="moigioi3">
+                        <form action="#">
+                            <button type="submit">Xem thêm</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="moigioi">
+                    <div class="moigioi1">
+                        <img src="hinhanhBTL/moigioi4.jpg" alt="#">
+                        <p>Bđshasuland</p>
+                    </div>
+                    <div class="moigioi2">
+                        <p> Bài đăng</p>
+                        <p>Lượt xem</p>
+                    </div>
+                    <div class="moigioi3">
+                        <form action="#">
+                            <button type="submit">Xem thêm</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="moigioi">
+                    <div class="moigioi1">
+                        <img src="hinhanhBTL/moigioi5.jpg" alt="#">
+                        <p>Đỗ Trung Dũng</p>
+                    </div>
+                    <div class="moigioi2">
+                        <p> Bài đăng</p>
+                        <p>Lượt xem</p>
+                    </div>
+                    <div class="moigioi3">
+                        <form action="#">
+                            <button type="submit">Xem thêm</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="moigioi">
+                    <div class="moigioi1">
+                        <img src="hinhanhBTL/moigioi6.jpg" alt="#">
+                        <p>Nguễn Lê Anh</p>
+                    </div>
+                    <div class="moigioi2">
+                        <p> Bài đăng</p>
+                        <p>Lượt xem</p>
+                    </div>
+                    <div class="moigioi3">
+                        <form action="#">
+                            <button type="submit">Xem thêm</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="footer">
+        <h3><strong>BATDONGSAN Hà Nội</strong></h3>
+        <p>Bất động sản Hà Nội là website thuộc sở hữu của Nguyễn Hương Giang</p>
+        <div class="khoit">
+            <div class="khoi">
+                <h4><strong>BATDONGSAN.HN</strong></h4>
+                <p>
+                    Giới thiệu <br>
+                    Tin hoạt động <br>
+                    Sự kiện <br>
+                    Liên hệ <br>
+                </p>
+            </div>
+            <div class="khoi">
+                <h4><strong>QUY ĐỊNH</strong></h4>
+                <p>
+                    Quy định đăng tin <br>
+                    Quy chế hoạt động <br>
+                    Điều khoản thỏa thuận <br>
+                    Chính sách bảo mật <br>
+                    Giải quyết khiếu nại <br>
+                    Góp ý báo lỗi 
+                </p>
+            </div>
+            <div class="khoi">
+                <h4><strong>LIÊN KẾT</strong></h4>
+                <p>
+                    Webnhanhieu.com <br>
+                    Sancongngheso.com <br>
+                    RealtorNetwork.vn <br>
+                    RealtorJob.vn <br>
+                    RealtorAcademy.vn <br>
+                    CityLandNetwork.vn <br>
+                    Danh thiếp điện tử
+                </p>
+            </div>
+        </div>
+        <div class="khoip">
+            <div class="khoi">
+                <h4><strong>PORTAL</strong></h4>
+                <p>CỔNG THÔNG TIN BẤT ĐỘNG SẢN CỘNG ĐỒNG NGƯỜI VIỆT TOÀN CẦU
+                    REAL ESTATE PORTAL NETWORK</p>
+            </div>
+            <div class="khoi">
+                <h4><strong>SOCIAL</strong></h4>
+                <p>MẠNG XÃ HỘI BẤT ĐỘNG SẢN CỘNG ĐỒNG NGƯỜI VIỆT TOÀN CẦU
+                    REAL ESTATE SOCIAL NETWORK</p>
+            </div>
+            <div class="khoi">
+                <h4><strong>CHANNEL</strong></h4>
+                <p>HỆ THỐNG KÊNH TẠP CHÍ VÀ TRUYỀN HÌNH BẤT ĐỘNG SẢN SỐ
+                    REAL ESTATE DIGITAL MEDIA</p>
+            </div>
+        </div>
+        <div class="FOoter">
+            <div id="mang">
+                 <h3><strong>MẠNG XÃ HỘI</strong></h3>
+                 <a href="https://www.facebook.com/profile.php?id=100015442962256&mibextid=ibOpuV">
+                    <img src="hinhanhBTL/mangxahoi.png" alt="#">
+                 </a>
+            </div>
+           <div id="dangky">
+                <h3><strong>ĐĂNG KÍ NHẬN THÔNG TIN MIỄN PHÍ</strong></h3>
+            <form action="#">
+                <input type="search" name="search" placeholder="Nhập email của bạn  📧">
+                <button type="submit">Gửi</button>
+            </form>
+           </div>
+        </div>
+    </div>
+    <footer>
+            <div class="banner">
+                <p class="copyright">Bản quyền &copy; 2024 thuộc bản quyền của Nguyễn Hương Giang.</p>
+            </div>
+    </footer>
+</body>
+</html>
